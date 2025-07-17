@@ -22,7 +22,7 @@ const projects = [
     image: "/NotflixLogo.png",
     aspectRatio: "object-cover",
     tags: ["Vue.js", "Vite", "Javascript", "TailwindCSS"],
-    url: "https://notflix.jack123.xyz",
+    url: "https://jack-notflix.netlify.app/",
     glowColor: "#63ad58",
   },
   {
@@ -47,10 +47,7 @@ export default function ProjectsSection() {
           className="text-3xl font-bold mb-12 text-center text-hacker-green"
         >
           Jack-Anderson${" "}
-          <TypedText
-            strings={["cd Featured-Projects/"]}
-            startOnView={true} // Add this prop
-          />
+          <TypedText strings={["cd Featured-Projects/"]} startOnView={true} />
         </motion.h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
