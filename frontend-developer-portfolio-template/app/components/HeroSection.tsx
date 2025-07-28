@@ -27,8 +27,14 @@ export default function HeroSection() {
             <span className="px-4 py-2  text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
               Vue
             </span>
+            <span className="px-4 py-2  text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
+              React
+            </span>
             <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
               Javascript
+            </span>
+            <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
+              Typescript
             </span>
             <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
               Tailwind CSS

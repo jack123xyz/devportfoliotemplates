@@ -34,6 +34,15 @@ const projects = [
     url: "https://poisonprops.com",
     glowColor: "#ce1e25",
   },
+  {
+    title: "Freelancely",
+    description:
+      "A comprehensive freelance management system designed to streamline project administration, financial tracking, and document processing for independent contractors and small businesses.",
+    image: "/PPlogo.png",
+    tags: ["Next.js", "TypeScript", "Python", "Tailwind CSS"],
+    url: "https://freelancely.netlify.app",
+    glowColor: "#c77dff",
+  },
 ];
 
 export default function ProjectsSection() {

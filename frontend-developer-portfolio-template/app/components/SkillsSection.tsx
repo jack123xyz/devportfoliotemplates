@@ -5,10 +5,11 @@ import TypedText from "./TypedText";
 
 const skills = [
   { skill: "Vue/Vite", level: 85 },
-  { skill: "React", level: 60 },
+  { skill: "React", level: 85 },
   { skill: "UI/UX Design", level: 85 },
   { skill: "CSS/Tailwind", level: 95 },
   { skill: "JavaScript", level: 90 },
+  { skill: "TypeScript", level: 90 },
   { skill: "Responsive Design", level: 95 },
 ];
 
