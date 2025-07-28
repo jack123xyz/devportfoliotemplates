@@ -4,13 +4,12 @@ import { motion } from "framer-motion";
 import TypedText from "./TypedText";
 
 const skills = [
-  { skill: "Vue/Vite", level: 85 },
-  { skill: "React", level: 85 },
-  { skill: "UI/UX Design", level: 85 },
-  { skill: "CSS/Tailwind", level: 95 },
-  { skill: "JavaScript", level: 90 },
-  { skill: "TypeScript", level: 90 },
-  { skill: "Responsive Design", level: 95 },
+  { skill: "Vue/Vite", level: 100 },
+  { skill: "React", level: 100 },
+  { skill: "UI/UX Design", level: 100 },
+  { skill: "CSS/Tailwind", level: 100 },
+  { skill: "JavaScript", level: 100 },
+  { skill: "TypeScript", level: 100 },
 ];
 
 export default function SkillsSection() {
@@ -39,7 +38,6 @@ export default function SkillsSection() {
             >
               <div className="flex justify-between text-sm">
                 <span>{item.skill}</span>
-                <span>{item.level}%</span>
               </div>
               <div className="h-2 bg-gray-800 rounded-full overflow-hidden">
                 <motion.div

@@ -1,0 +1,57 @@
+.embla {
+  overflow: hidden;
+  position: relative;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  /* Default to 1 slide */
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+/* Medium screens (tablets) - 2 slides */
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 50%;
+  }
+}
+
+/* Large screens (desktops) - 3 slides */
+@media (min-width: 1024px) {
+  .embla__slide {
+    flex: 0 0 33.3333%;
+  }
+}
+
+.embla__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.embla__button {
+  background-color: #63ad58;
+  border: 1px solid #00120b;
+  color: #00120b;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.embla__button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.embla__button:hover:not(:disabled) {
+  background-color: #63ad58;
+  opacity: 0.85;
+}

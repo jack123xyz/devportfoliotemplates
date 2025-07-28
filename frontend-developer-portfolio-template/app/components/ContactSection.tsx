@@ -74,7 +74,7 @@ export default function ContactSection() {
                 Get in Touch
               </motion.a>
               <motion.a
-                href="/Resume.pdf"
+                href="/Jack Anderson - Web Developer.pdf"
                 target="_blank"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -112,7 +112,7 @@ export default function ContactSection() {
                 </svg>
               </motion.a>
               <motion.a
-                href="https://www.linkedin.com/in/jack-anderson-52bb78369/"
+                href="https://www.linkedin.com/in/jack-anderson-348795372/"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="group flex items-center justify-center p-4 bg-gradient-to-r from-purple-500/10 to-purple-500/20 rounded-xl hover:from-purple-500/20 hover:to-purple-500/30 border border-purple-500/20 hover:border-purple-500/30 transition-all duration-300"

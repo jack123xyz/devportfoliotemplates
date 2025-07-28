@@ -31,10 +31,10 @@ export default function HeroSection() {
               React
             </span>
             <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
-              Javascript
+              JavaScript
             </span>
             <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
-              Typescript
+              TypeScript
             </span>
             <span className="px-4 py-2 text-hacker-green-light bg-night/80 rounded-full border border-hacker-green/50">
               Tailwind CSS
