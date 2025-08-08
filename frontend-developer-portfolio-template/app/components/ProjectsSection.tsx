@@ -48,10 +48,21 @@ const projects = [
     url: "https://freelancely.netlify.app",
     glowColor: "#c77dff",
   },
+  {
+    title: "CS2 Retribution Tracker",
+    description:
+      "A tool for gamers to discover which players from their recent CS2 matches got banned for cheating after playing with them. Track cheaters who received VAC bans or Game bans following their matches with you.",
+    image: "/cs.svg",
+    tags: ["React", "TypeScript", "PostgreSQL", "Tailwind CSS"],
+    url: "https://bantracker.netlify.app/",
+    glowColor: "#9ae600",
+  },
 ];
 
 export default function ProjectsSection() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
+    Autoplay({ delay: 20000 }),
+  ]);
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true);
   const [nextBtnDisabled, setNextBtnDisabled] = useState(true);
 
